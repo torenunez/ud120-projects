@@ -78,3 +78,5 @@ print df.info()
 print df.shape
 print df.isnull().sum()
 
+print df[df.poi]['total_payments'].isnull().sum()
+
